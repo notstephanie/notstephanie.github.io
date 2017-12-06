@@ -12,7 +12,7 @@
   <body>
   <header class="head" id="home" style="max-width:1500px">
     <div class="headcard">
-        <img id="header" src="assets/images/me2.JPG">
+        <img id="header" src="assets/images/me2.jpg">
         <div class="overlay">
           <div class="text">Chào thế giới <br/> Hello world <br/> 안녕 세상 <br/> Hola mundo</div>
         </div>

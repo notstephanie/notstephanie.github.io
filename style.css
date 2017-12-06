@@ -1,0 +1,297 @@
+body {
+  background-color: white;
+}
+
+.headcard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom:0px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+  background-image: url("world.jpg");
+}
+
+.headcard:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  font-family: 'Fugue';
+  text-shadow: 4px 4px 6px grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+    float: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topcard {
+    background-color: white;
+    overflow: hidden;
+    margin-top: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+
+
+.topcard a {
+    float: left;
+    font-family: 'Fugue';
+    color: #333333;
+    letter-spacing: 4px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 100%;
+}
+
+.topnav-r a {
+    float: right;
+}
+
+.topcard a:hover {
+    background-color: #333333;
+    text-shadow: 4px;
+    text-underline-position: 5px;
+    color: white;
+    text-shadow: 4px 4px 6px lightgrey;
+}
+
+.about{
+    background-color: #333333;
+    height: auto;
+    color: white;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.bodycard {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#bio {
+    background-color: white;
+    font-family: 'Calibre';
+}
+
+.pastcard, .presentcard {
+    background-color: #910000;
+    height: 39.15vw;
+    color: white;
+    text-align: center;
+}
+
+.past-l { 
+    font-family: 'Calibre';
+    margin-top:40px;
+    float: left;
+    width: 49.35vw;
+    font-size: 20px;
+}
+
+.past-r {
+    float: right;
+    width: 49.35vw;
+    text-align: center;
+    background-color: white;
+}
+
+.pres-l {
+    float: left;
+    width: 49.35vw;
+    text-align: center;
+    background-color: white;
+}
+
+.pres-r {
+    font-family: sans-serif;
+    margin-top:40px;
+    float: right;
+    width: 49.35vw;
+    font-size: 20px;
+}
+
+#oldbio {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+
+}
+
+#profile {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+
+}
+
+h1, h2 {
+    color: white;
+    font-family: 'Fugue';
+    margin-top: 0;
+}
+
+h1  {
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 35px;
+
+}
+
+#skills {
+    text-align: left;
+    background-color: white;
+}
+
+.skillcard {
+    background-color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    margin-top: 0px;
+    width: 100%;
+}
+
+h4 {
+    color: white;
+    font-family: 'Calibre';
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#skills {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #333333;
+}
+
+#left-cone {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+#right-cone {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+#construction {
+    float: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.projectcard{
+    float: left;
+    background-color: #3C5A84;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    margin-top: 0px;
+    width: 100%;
+    height: 80vh;
+}
+
+.projectcard__title{
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.projectcard__title h1{
+    font-family: 'Calibre';
+    font-weight: 300;
+    color: #5b5f66;
+    font-size: 50px;
+}
+
+.projects__container{
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.project{
+    width: 50%;
+    display: inline-block;
+    height: 250px;
+    overflow: hidden;
+    margin: 0;
+    float: left;
+    transition: all .2s ease;
+}
+
+.project img{
+    max-height: 100%;
+    min-width: 100%;
+}
+
+.project:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    box-shadow: 5px 5px 15px #282828;
+}
+
+#projects {
+    font-family: Garamond;
+    letter-spacing: 4px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.connectcard {
+    background-color: #910000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    margin-top: 0px;
+    width: 100%;
+    height: 40vh;
+}
+
+#connect {
+    font-family: Garamond;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon {
+    margin: 60px;
+    margin-top: 30px;
+    width: 8%;
+
+}
